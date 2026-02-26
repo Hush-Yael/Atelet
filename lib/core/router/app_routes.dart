@@ -18,11 +18,15 @@ class Route extends GoRoute {
 class AppRoutes {
   AppRoutes._();
 
-  static Route home = Route(name: 'home', path: '/', widget: HomeScreen());
+  static Route home = Route(
+    name: 'home',
+    path: '/',
+    widget: const HomeScreen(),
+  );
 
   static Route settings = Route(
     name: 'settings',
     path: '/settings',
-    widget: SettingsScreen(),
+    widget: const SettingsScreen(),
   );
 }
