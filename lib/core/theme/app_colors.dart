@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
+  const AppColors._();
+
   static final asphalt = MaterialColor(0xff302f2c, {
     50: Color(0xff0f0e0d),
     100: Color(0xff181716),
@@ -31,11 +33,15 @@ class AppColors {
 }
 
 class AppLightColors {
+  const AppLightColors._();
+
   static final primary = AppColors.asphalt;
   static final onPrimary = AppColors.paper;
 }
 
 class AppDarkColors {
+  const AppDarkColors._();
+
   static final primary = AppColors.paper;
   static final onPrimary = AppColors.asphalt;
 }
