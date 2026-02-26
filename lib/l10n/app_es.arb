@@ -1,0 +1,13 @@
+{
+  "@@locale": "es",
+  "settings_bar_title": "configuración",
+  "settings_locale_label": "idioma de la aplicación",
+  "settings_theme_label": "tema de la aplicación",
+  "settings_theme_dark": "oscuro",
+  "settings_theme_light": "claro",
+  "settings_theme_system": "sistema",
+  "settings_version_label": "versión",
+  "settings_build_label": "build",
+  "router_home_label": "inicio",
+  "router_settings_label": "configuración"
+}

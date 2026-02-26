@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "settings_bar_title": "settings",
+  "settings_locale_label": "app language",
+  "settings_theme_label": "app theme",
+  "settings_theme_dark": "dark",
+  "settings_theme_light": "light",
+  "settings_theme_system": "system",
+  "settings_version_label": "version",
+  "settings_build_label": "build"
+}
