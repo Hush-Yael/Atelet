@@ -40,20 +40,27 @@ class MainNavShell extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: navigationShell,
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: navigationShell.currentIndex,
-        labelBehavior: .alwaysHide,
-        destinations: [
-          NavigationDestination(
-            icon: Icon(Icons.home),
-            label: context.l.router_home_label,
-          ),
-          NavigationDestination(
-            icon: Icon(Icons.settings),
-            label: context.l.router_settings_label,
-          ),
-        ],
-        onDestinationSelected: _goBranch,
+
+      bottomNavigationBar: BottomAppBar(
+        padding: .zero,
+        notchMargin: 4.5,
+        child: BottomNavigationBar(
+          currentIndex: navigationShell.currentIndex,
+          backgroundColor: Colors.transparent,
+          onTap: _goBranch,
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home_outlined),
+              activeIcon: Icon(Icons.home),
+              label: context.l.router_home_label,
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.settings_outlined),
+              activeIcon: Icon(Icons.settings),
+              label: context.l.router_settings_label,
+            ),
+          ],
+        ),
       ),
     );
   }
