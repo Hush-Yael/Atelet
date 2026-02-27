@@ -35,8 +35,8 @@ class _MyAppState extends State<MyApp> {
               LocaleController.localeListResolutionCallback,
           locale: localeController.currentLocale,
           routerConfig: AppRouter.router,
-          theme: appLightTheme,
-          darkTheme: appDarkTheme,
+          theme: AppTheme.lightTheme,
+          darkTheme: AppTheme.darkTheme,
           themeMode: theme.themeMode.value,
         );
       },
