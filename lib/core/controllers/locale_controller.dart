@@ -29,6 +29,8 @@ class LocaleController {
 
   Locale? get currentLocale => _locale.value;
 
+  static final Locale defaultLocale = supportedLocales.first;
+
   static const List<Locale> supportedLocales = [Locale('en'), Locale('es')];
 
   Future setLocale(Locale newLocale) async {
@@ -45,8 +47,8 @@ class LocaleController {
     List<Locale>? locales,
     Iterable<Locale> supportedLocales,
   ) {
-    final locale = locales?.firstOrNull ?? const Locale('en');
-    return supportedLocales.contains(locale) ? locale : const Locale('en');
+    final locale = locales?.firstOrNull ?? defaultLocale;
+    return supportedLocales.contains(locale) ? locale : defaultLocale;
   }
 }
 
