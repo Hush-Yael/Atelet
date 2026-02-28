@@ -145,6 +145,132 @@ abstract class AppLocale {
   /// **'build'**
   String get settings_build_label;
 
+  /// No description provided for @form_req_error.
+  ///
+  /// In es, this message translates to:
+  /// **'Este campo es requerido'**
+  String get form_req_error;
+
+  /// No description provided for @form_minlength_error.
+  ///
+  /// In es, this message translates to:
+  /// **'Se requieren al menos {length} caracteres'**
+  String form_minlength_error(int length);
+
+  /// No description provided for @form_maxlength_error.
+  ///
+  /// In es, this message translates to:
+  /// **'Se aceptan {length} caracteres o menos'**
+  String form_maxlength_error(int length);
+
+  /// No description provided for @form_numeric_error.
+  ///
+  /// In es, this message translates to:
+  /// **'El valor debe ser numérico'**
+  String get form_numeric_error;
+
+  /// No description provided for @form_min_error.
+  ///
+  /// In es, this message translates to:
+  /// **'El valor debe ser mayor o igual a {min}'**
+  String form_min_error(int min);
+
+  /// No description provided for @form_max_error.
+  ///
+  /// In es, this message translates to:
+  /// **'El valor debe ser menor o igual a {max}'**
+  String form_max_error(int max);
+
+  /// No description provided for @form_min_today_error.
+  ///
+  /// In es, this message translates to:
+  /// **'La fecha debe ser mayor o igual a la fecha actual'**
+  String get form_min_today_error;
+
+  /// No description provided for @routines_form_title_new.
+  ///
+  /// In es, this message translates to:
+  /// **'Nueva rutina'**
+  String get routines_form_title_new;
+
+  /// No description provided for @routines_form_data_tab_label.
+  ///
+  /// In es, this message translates to:
+  /// **'Datos'**
+  String get routines_form_data_tab_label;
+
+  /// No description provided for @routines_form_exercises_tab_label.
+  ///
+  /// In es, this message translates to:
+  /// **'Ejercicios'**
+  String get routines_form_exercises_tab_label;
+
+  /// No description provided for @routines_form_name_label.
+  ///
+  /// In es, this message translates to:
+  /// **'nombre'**
+  String get routines_form_name_label;
+
+  /// No description provided for @routines_form_rounds_label.
+  ///
+  /// In es, this message translates to:
+  /// **'rondas'**
+  String get routines_form_rounds_label;
+
+  /// No description provided for @routines_form_endDate_label.
+  ///
+  /// In es, this message translates to:
+  /// **'fecha de finalización'**
+  String get routines_form_endDate_label;
+
+  /// No description provided for @routines_form_days_label.
+  ///
+  /// In es, this message translates to:
+  /// **'días de ejecución'**
+  String get routines_form_days_label;
+
+  /// No description provided for @routines_form_discard_title.
+  ///
+  /// In es, this message translates to:
+  /// **'Descartar rutina'**
+  String get routines_form_discard_title;
+
+  /// No description provided for @routines_form_discard_subtitle.
+  ///
+  /// In es, this message translates to:
+  /// **'¿Realmente quieres descartar esta rutina?'**
+  String get routines_form_discard_subtitle;
+
+  /// No description provided for @routines_form_discard_content.
+  ///
+  /// In es, this message translates to:
+  /// **'Se perderán todos los datos introducidos.'**
+  String get routines_form_discard_content;
+
+  /// No description provided for @routines_form_discard_cancel.
+  ///
+  /// In es, this message translates to:
+  /// **'Cancelar'**
+  String get routines_form_discard_cancel;
+
+  /// No description provided for @routines_form_discard_confirm.
+  ///
+  /// In es, this message translates to:
+  /// **'Sí, descartar'**
+  String get routines_form_discard_confirm;
+
+  /// No description provided for @routines_form_datePicker_confirm.
+  ///
+  /// In es, this message translates to:
+  /// **'Seleccionar'**
+  String get routines_form_datePicker_confirm;
+
+  /// No description provided for @router_nav_fab.
+  ///
+  /// In es, this message translates to:
+  /// **'Nueva rutina'**
+  String get router_nav_fab;
+
   /// No description provided for @router_home_label.
   ///
   /// In es, this message translates to:

@@ -1,0 +1,16 @@
+{
+  "@@locale": "es",
+  "routines_form_title_new": "Nueva rutina",
+  "routines_form_data_tab_label": "Datos",
+  "routines_form_exercises_tab_label": "Ejercicios",
+  "routines_form_name_label": "nombre",
+  "routines_form_rounds_label": "rondas",
+  "routines_form_endDate_label": "fecha de finalización",
+  "routines_form_days_label": "días de ejecución",
+  "routines_form_discard_title": "Descartar rutina",
+  "routines_form_discard_subtitle": "¿Realmente quieres descartar esta rutina?",
+  "routines_form_discard_content": "Se perderán todos los datos introducidos.",
+  "routines_form_discard_cancel": "Cancelar",
+  "routines_form_discard_confirm": "Sí, descartar",
+  "routines_form_datePicker_confirm": "Seleccionar"
+}

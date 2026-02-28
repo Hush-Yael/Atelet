@@ -1,4 +1,6 @@
+import 'package:atelet/features/routines/routine_form_screen.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 import 'package:atelet/features/home/ui/home_screen.dart';
 import 'package:atelet/features/settings/ui/settings_screen.dart';
 import 'package:go_router/go_router.dart';
@@ -28,5 +30,11 @@ class AppRoutes {
     name: 'settings',
     path: '/settings',
     widget: const SettingsScreen(),
+  );
+
+  static Route newRoutine = Route(
+    name: 'new-routine',
+    path: '/new-routine',
+    widget: RoutineFormScreen(),
   );
 }

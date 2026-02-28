@@ -18,6 +18,7 @@ class AppRouter {
           StatefulShellBranch(routes: [AppRoutes.settings]),
         ],
       ),
+      AppRoutes.newRoutine,
     ],
   );
 
@@ -41,7 +42,17 @@ class MainNavShell extends StatelessWidget {
     return Scaffold(
       body: navigationShell,
 
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => context.go(AppRoutes.newRoutine.path),
+        tooltip: context.l.router_nav_fab,
+        elevation: 1,
+        child: const Icon(Icons.add),
+      ),
+
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+
       bottomNavigationBar: BottomAppBar(
+        shape: const CircularNotchedRectangle(),
         padding: .zero,
         notchMargin: 4.5,
         child: BottomNavigationBar(

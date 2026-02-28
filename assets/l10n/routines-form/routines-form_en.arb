@@ -1,0 +1,16 @@
+{
+  "@@locale": "en",
+  "routines_form_title_new": "New routine",
+  "routines_form_data_tab_label": "Data",
+  "routines_form_exercises_tab_label": "Exercises",
+  "routines_form_name_label": "name",
+  "routines_form_rounds_label": "rounds",
+  "routines_form_endDate_label": "end date",
+  "routines_form_days_label": "execution days",
+  "routines_form_discard_title": "Discard routine",
+  "routines_form_discard_subtitle": "Are you sure you want to discard this routine?",
+  "routines_form_discard_content": "All data will be lost.",
+  "routines_form_discard_cancel": "Cancel",
+  "routines_form_discard_confirm": "Yes, discard",
+  "routines_form_datePicker_confirm": "Select"
+}

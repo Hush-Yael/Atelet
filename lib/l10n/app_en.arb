@@ -8,6 +8,59 @@
   "settings_theme_system": "system",
   "settings_version_label": "version",
   "settings_build_label": "build",
+  "form_req_error": "This field is required",
+  "form_minlength_error": "At least {length} characters are required",
+  "@form_minlength_error": {
+    "placeholders": {
+      "length": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "form_maxlength_error": "At most {length} characters are allowed",
+  "@form_maxlength_error": {
+    "placeholders": {
+      "length": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "form_numeric_error": "Value must be numeric",
+  "form_min_error": "Value must be greater than or equal to {min}",
+  "@form_min_error": {
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "form_max_error": "Value must be less than or equal to {max}",
+  "@form_max_error": {
+    "placeholders": {
+      "max": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "form_min_today_error": "Date must be greater than or equal to today",
+  "routines_form_title_new": "New routine",
+  "routines_form_data_tab_label": "Data",
+  "routines_form_exercises_tab_label": "Exercises",
+  "routines_form_name_label": "name",
+  "routines_form_rounds_label": "rounds",
+  "routines_form_endDate_label": "end date",
+  "routines_form_days_label": "execution days",
+  "routines_form_discard_title": "Discard routine",
+  "routines_form_discard_subtitle": "Are you sure you want to discard this routine?",
+  "routines_form_discard_content": "All data will be lost.",
+  "routines_form_discard_cancel": "Cancel",
+  "routines_form_discard_confirm": "Yes, discard",
+  "routines_form_datePicker_confirm": "Select",
+  "router_nav_fab": "New routine",
   "router_home_label": "home",
   "router_settings_label": "settings"
 }

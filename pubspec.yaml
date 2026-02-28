@@ -26,6 +26,9 @@ dependencies:
   disco: ^2.0.0
   flutter_solidart: ^2.7.1
   package_info_plus: ^9.0.0
+  flutter_form_builder: ^10.3.0+2
+  shadcn_flutter: ^0.0.51
+  form_builder_validators: ^11.3.0
 
 dev_dependencies:
   flutter_test:

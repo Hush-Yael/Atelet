@@ -1,5 +1,6 @@
 {
   "@@locale": "en",
+  "router_nav_fab": "New routine",
   "router_home_label": "home",
   "router_settings_label": "settings"
 }
