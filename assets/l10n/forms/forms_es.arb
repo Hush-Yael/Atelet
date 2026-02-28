@@ -1,0 +1,42 @@
+{
+  "@@locale": "es",
+  "form_req_error": "Este campo es requerido",
+  "form_minlength_error": "Se requieren al menos {length} caracteres",
+  "@form_minlength_error": {
+    "placeholders": {
+      "length": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "form_maxlength_error": "Se aceptan {length} caracteres o menos",
+  "@form_maxlength_error": {
+    "placeholders": {
+      "length": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "form_numeric_error": "El valor debe ser numérico",
+  "form_min_error": "El valor debe ser mayor o igual a {min}",
+  "@form_min_error": {
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "form_max_error": "El valor debe ser menor o igual a {max}",
+  "@form_max_error": {
+    "placeholders": {
+      "max": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "form_min_today_error": "La fecha debe ser mayor o igual a la fecha actual"
+}
